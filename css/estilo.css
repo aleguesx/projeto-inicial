@@ -1,6 +1,7 @@
 /*definir cor de fundo para o cabecalho.*/
-#cabecalho{
+.cabecalho{
     background-color: #0000FF;
+    text-align: center;
 }
 
 /*Aplcar fonte serifada.*/
