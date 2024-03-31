@@ -46,3 +46,8 @@ button{
 footer{
     border-top: solid 2px #ff0000;
 }
+
+#cabecalho {background-color: #0000FF;
+text-align: center;
+color: #ffffff;
+}
