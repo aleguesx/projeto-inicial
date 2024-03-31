@@ -34,6 +34,11 @@ p{
 }
 /*Alteração cor button.*/
 button{
-    background-color: blue;
-    color: white;
+    background-color: #0000ff;
+    color: #ffffff;
+}
+
+/*Borda para rodape.*/
+footer{
+    border-top: solid 2px #ff0000;
 }
