@@ -14,3 +14,7 @@ h2{font-family: 'Times New Roman', Times, serif;
 nav ul li{
     font-weight:bolder;
 }
+
+/*Definir margem interna (20px - #container)*/
+#container{
+    padding: 20px;
