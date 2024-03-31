@@ -1,6 +1,5 @@
 /*definir cor de fundo para o cabecalho.*/
-
-header{
+#cabecalho{
     background-color: #0000FF;
 }
 
@@ -18,15 +17,18 @@ nav ul li{
 /*Definir margem interna (20px - #container).*/
 #container{
     padding: 20px;
+}
 
 /*Espaçamento para conteúdo (1.5).*/
-.conteudo{
+#conteudo{
     line-height: 1.5;
+}
 
 /*Estilização formulário de contato (borda sólida de 1 pixel, cor cinza e padding interno de 10 pixels).*/
-form{
+#contact{
     padding: 10px;
     border: solid 1px #808080;
+}
 
 /*Aplique uma cor de texto verde para todos os parágrafos (<p>).*/
 p{
