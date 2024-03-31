@@ -32,3 +32,8 @@ form{
 p{
     color: #008000;
 }
+/*Alteração cor button.*/
+button{
+    background-color: blue;
+    color: white;
+}
