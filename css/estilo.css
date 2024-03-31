@@ -15,10 +15,16 @@ nav ul li{
     font-weight:bolder;
 }
 
-/*Definir margem interna (20px - #container)*/
+/*Definir margem interna (20px - #container).*/
 #container{
     padding: 20px;
 
-/*Espaçamento para conteúdo (1.5)*/
+/*Espaçamento para conteúdo (1.5).*/
 .conteudo{
     line-height: 1.5;
+
+/*Estilização formulário de contato (borda sólida de 1 pixel, cor cinza e padding interno de 10 pixels).*/
+form{
+    padding: 10px;
+    border: solid 1px #808080;
+
