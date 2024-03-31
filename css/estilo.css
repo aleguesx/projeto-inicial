@@ -3,3 +3,9 @@
 header{
     background-color: #0000FF;
 }
+
+/*Aplcar fonte serifada.*/
+h1{font-family:'Times New Roman', Times, serif;
+}
+h2{font-family: 'Times New Roman', Times, serif;
+}
