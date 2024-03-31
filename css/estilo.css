@@ -28,3 +28,7 @@ form{
     padding: 10px;
     border: solid 1px #808080;
 
+/*Aplique uma cor de texto verde para todos os parágrafos (<p>).*/
+p{
+    color: #008000;
+}
