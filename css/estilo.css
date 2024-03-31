@@ -9,3 +9,8 @@ h1{font-family:'Times New Roman', Times, serif;
 }
 h2{font-family: 'Times New Roman', Times, serif;
 }
+
+/*Negritar links.*/
+nav ul li{
+    font-weight:bolder;
+}
