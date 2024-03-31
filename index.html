@@ -1,42 +1,92 @@
 <!DOCTYPE html>
-<!-- Isso é um DTD de HTML5
--->
-<!-- Isso é um comentário
-A <!DOCTYPE html> document type definition, declaração define que este documento é um documento html.
--->
-
-<!-- O html é a tag raiz da estrutura html, todo o conteúdo deve ser criado dentro dele.
--->
-<html>
-  <!--
-		<head> elemento contém meta informações sobre a página HTML
-	-->
+<html lang="pt-br"></html></html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><EXEMPLO</title>
+    <title>EXEMPLO</title>
   </head>
   <body>
-    <h1>Exemplo de quebras de linha e elementos!</h1>
+    <div id="container">
+      <header class="cabecalho">
+        <h1>
+          Minha página
+        </h1>
+          <nav class="menu">
+            <!-- ul = unordered list e dentro dela somente podemos adicionar elementos li = list item.
+            
+              ul>li*3>a[href=#]{Item -$} -->
 
-    <div style="border: solid red 2px">
-      <p style="border: solid blue 2px">
-        A div é um elemnto de bloco, porque ocupa a linha toda! Já o parágrafo é
-        um elemento de linha e bloco!
-      </p>
-      <span
-        style="border: solid green 2px; background-color: black; color: beige"
-      >
-        Agora vem o SPAN e te mostra que os elementos de linha são os elementos
-        mais simples, pois eles ocupam o espaço de seu conteúdo no
-        viewport.</span
-      >
+              <ul>
+                <li><a href="./paginas/help.html">Ajuda</a></li>
+                <li><a href="./paginas/about.html">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
+              </ul>
+          </nav>
+      </header>
+
+      <hr />
+
+      <section id="conteudo">
+
+        <div>
+          <h2>HELP</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique sit maxime amet aut pariatur architecto suscipit ullam corrupti a ut at in fugit accusamus voluptatem accusantium, tempore optio est. Possimus ratione perspiciatis atque nesciunt veritatis quae numquam. Error delectus aliquid adipisci ipsam dignissimos omnis reiciendis, illum in? Hic suscipit eligendi, ad possimus necessitatibus voluptatum totam corrupti porro deserunt quam eum reiciendis odit nam officia nemo. Voluptatum culpa omnis labore veniam sit animi ratione totam fuga suscipit ab quae ducimus mollitia aspernatur corporis, soluta iusto laborum optio accusantium quod molestiae officia reprehenderit corrupti. Minima, quisquam adipisci. Molestias repellat illum voluptas quibusdam!
+          </p>
+          <a href= "./paginas/help.html"> Mais... </a>
+        </div>
+
+        <div>
+          <h2>ABOUT</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, repellendus iusto nulla sit doloribus eligendi, odio nostrum similique quos tempore eveniet reprehenderit totam quam ad repellat et inventore in. Exercitationem quia quasi, accusamus sequi numquam eum culpa iure adipisci labore repellendus laudantium consectetur quisquam quaerat in quibusdam, autem eligendi cum quod officia odit officiis rem! Eveniet et doloribus rerum! Similique, sint tempora atque placeat aut architecto rem cumque, illum iure veniam ducimus sunt, voluptas quibusdam cupiditate voluptate ipsam! Odio iusto dolorem quisquam maxime tempore at asperiores commodi quasi praesentium! Rerum sint libero error voluptates, perspiciatis accusantium aspernatur recusandae deserunt accusamus!
+          </p>
+          <a href= "./paginas/about.html"> Mais... </a>
+        </div>
+        
+        <div id="contact">
+          <h2> Contact </h2>
+          <form>
+            <fieldset>
+              <legend>Customer Data</legend>
+              <div>
+                <label for="idNm">Nome:</label>
+                <input
+                  type="text"
+                  name="txtNm"
+                  id="idNm"
+                  placeholder="Digite seu nome"
+                />
+              </div>
+
+              <div>
+                <label for="idEmail">Email:</label>
+                <input
+                  type="email"
+                  name="txtEmail"
+                  id="idEmail"
+                  placeholder="Digite seu email"
+                />
+              </div>
+
+              <div>
+                <button type="button">Send</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+
+      </section>
+      <footer class="rodape">
+        <nav>
+          <ul>
+            <li><a href="https://github.com/" target="_blank"><img src="./img/github.png" alt="logo github" width="5%"></a></li>
+            <li><a href="https://www2.fiap.com.br/?gad_source=1&gclid=EAIaIQobChMIjfXJi5LshAMVBGFIAB1jnAKxEAAYASAAEgLM9fD_BwE" target="_blank"><img src="./img/fiaplogo.png" alt="logo fiap" width="5%"></a></li>
+            <li><a href="https://www.google.com.br/" target="_blank"> <img src="./img/social.png" alt="logo google" width="5%"> </a></li>
+          </ul>
+      </nav>
+      Todos os direitos reservados <small> 2024 - &copy;</small> 
+      </footer>
     </div>
-    <!-- <h1>Exemplo de Cabeçalhos</h1>
-    <h2>Segundo Título</h2>
-    <h3>Terceiro Título</h3>
-    <h4>Quarto Título</h4>
-    <h5>Quinto Título</h5>
-    <h6>Sexto Título</h6> -->
   </body>
 </html>
